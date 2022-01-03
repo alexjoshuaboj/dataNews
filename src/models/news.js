@@ -18,6 +18,9 @@ const newsSchema = mongoose.Schema({
     },
     archiveDate:{
         type: String
+    },
+    archived:{
+        type: Boolean  
     }
 })
 
